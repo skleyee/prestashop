@@ -1,0 +1,7 @@
+# modules/your-module/config/routes.yml
+ps_adaptationmodule_start:
+  path: ps_adaptationmodule/adaptation
+  methods: [GET]
+  defaults:
+    _controller: ps_adaptationmodule\Controller\AdaptationController::adaptationAction
+    _disable_module_prefix: true

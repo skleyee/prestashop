@@ -1,0 +1,13 @@
+{
+  "name": "sasha/ps_adaptationmodule",
+  "description": "Module contains helper and admincontroller",
+  "autoload": {
+    "psr-4": {
+      "ps_adaptationmodule\\Controller\\": "src/Controller/"
+    }
+  },
+  "config": {
+    "prepend-autoloader": false
+  },
+  "type": "prestashop-module"
+}
